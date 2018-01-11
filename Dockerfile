@@ -18,6 +18,9 @@ RUN \
  pip install --no-cache-dir -U \
 	pycryptodomex && \
 
+# install Pillow
+ pip install Pillow && \
+
 # cleanup
  apk del --purge \
 	build-dependencies && \
